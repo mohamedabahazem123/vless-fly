@@ -1,0 +1,9 @@
+app = "vless-maroc-123"
+[build]
+[http_service]
+  internal_port = 8080
+  force_https = true
+[[vm]]
+  memory = "256mb"
+  cpu_kind = "shared"
+  cpus = 1
